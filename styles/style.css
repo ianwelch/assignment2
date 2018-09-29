@@ -11,15 +11,15 @@
     padding: 0.5vw;
 }
 
-/* Style the top navigation bar */
-.topnav {
+/* Style the navigation bar menu */
+.menu {
     overflow: hidden;
     background-color: black;
     font-size: 2vw;
 }
 
-/* Style the topnav links */
-.topnav a {
+/* Style the menu links */
+.menu a {
     float: left;
     display: block;
     color: white;
