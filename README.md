@@ -1,2 +1,3 @@
-# poly-rua
-Open polytechnic assignment 2
+# README
+
+Assignment 2.
