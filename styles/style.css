@@ -62,13 +62,13 @@
 /* Google maps responsive, not described in course 
    See https://www.labnol.org/internet/embed-responsive-google-maps/28333/
 */
-.google-maps {
+.responsive-iframe {
     position: relative;
     padding-bottom: 75%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
 }
-.google-maps iframe {
+.responsive-iframe iframe {
     position: absolute;
     top: 0;
     left: 0;
