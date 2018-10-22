@@ -47,18 +47,35 @@ Navigation:
 
 Use of H1 instead of using bold or italics for headings.
 
+Menu is divided up using headers to structure the content.
+
 #### includes proper alt text for images
 
 - Facebook logo on each page.
 - Bay of Islands photo on index.html
 - Table of food, wine cellar on menu.html
 
+#### colour is used with care
 
+- Chose high contrast colours
+- Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.
 
-- colour is used with care
-- form designed for accessbility (lables, tabbing, grouping)
-- tables used for tabular data, not layout
-- content can be acessed with keyboard alone in a logical way
-- ARIA roles and landmarks used to identify naviation menu, header and main content
+### form designed for accessbility (lables, tabbing, grouping)
 
+- Provided by default by Google forms
+
+#### tables used for tabular data, not layout
+
+- Have used div and css instead of tables to layout content
+
+#### content can be acessed with keyboard alone in a logical way
+
+- Checked that can navigate use TAB and arrow keys
+
+#### ARIA roles and landmarks used to identify naviation menu, header and main content
+
+- Not covered explicitly in the modules
+- https://www.washington.edu/accessibility/web/landmarks/ 
+- https://www.w3.org/TR/wai-aria/
+- added roles "banner", "navigation" and "main" to each page
 
