@@ -79,3 +79,6 @@ Menu is divided up using headers to structure the content.
 - https://www.w3.org/TR/wai-aria/
 - added roles "banner", "navigation" and "main" to each page
 
+### Contains an appropriate privacy statement
+
+#### Additional page added following style of other web pages (layout and navigation)
