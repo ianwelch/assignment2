@@ -42,8 +42,19 @@ Navigation:
 - home returns back to the home page
 
 ### Follows accessibility guidelines where appropriate
-- headings are used correctly to organise content
-- includes proper al text for images
+
+#### headings are used correctly to organise content
+
+Use of H1 instead of using bold or italics for headings.
+
+#### includes proper alt text for images
+
+- Facebook logo on each page.
+- Bay of Islands photo on index.html
+- Table of food, wine cellar on menu.html
+
+
+
 - colour is used with care
 - form designed for accessbility (lables, tabbing, grouping)
 - tables used for tabular data, not layout
