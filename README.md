@@ -81,4 +81,8 @@ Menu is divided up using headers to structure the content.
 
 ### Contains an appropriate privacy statement
 
+- Added using privomatic
+
 #### Additional page added following style of other web pages (layout and navigation)
+
+- Linked from the page where personal information is collected (reservations.html)
