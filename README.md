@@ -91,16 +91,22 @@ All assets are placed in appropriate subdirectories with screenshots provided.
 ### b.	Apply responsive design principles to make the web application mobile ready. We use Google’s mobile-friendly test to automate this testing (https://search.google.com/test/mobile-friendly). 
 
 Viewport is configured to allow browsers to adjust page’s dimension and scaling to suit the device.
+- added <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 Pages can be resized by the user. There’s no reliance on fixed width viewports. 
+- yes, tested by resizing
 
 Horizontal scrolling is not necessary to see words or images on the page.
+- yes, checked manually
 
 Content is laid out vertically when it won’t fit horizontally within the viewport.
+- yes, checked manually
 
 Images scale with the page, or alternative images are used for smaller viewports.
+- yes, checked manually 
 
 Fonts are legible for mobile visitors without any need to ‘pinch and zoom’. Fonts scale properly within the viewport.
+- yes, checked manually
 
 ### c. Optimise page loading times with the aim that the homepage can be loaded within two seconds on a 2G network. All other pages should have their performance optimised as much as possible using appropriate techniques.  We use Chrome DevTools, a mix of manual inspection of code, and Google mobile-friendly test to assess your submission.   
 
