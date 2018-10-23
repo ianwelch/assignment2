@@ -4,7 +4,7 @@ Assignment 2.
 
 ## Part 1 Standards, Protocols and security
 
-### a Uses valid HTML5 to implement web page headers, footers, content, and navigation between the web pages. HTML is validated using https://html5.validator.nu/ Include screenshots of each page.
+### a. Uses valid HTML5 to implement web page headers, footers, content, and navigation between the web pages. HTML is validated using https://html5.validator.nu/ Include screenshots of each page.
 
 Home:
 - header: hours, reservations, menu and contact
@@ -41,48 +41,77 @@ Navigation:
 - header menu allows navigation between pages
 - home returns back to the home page
 
-### Follows accessibility guidelines where appropriate
+### b. Follows accessibility guidelines where appropriate
 
-#### headings are used correctly to organise content
+Headings are used correctly to organise content:
+- Use of H1 instead of using bold or italics for headings.
+- Menu is divided up using headers to structure the content.
 
-Use of H1 instead of using bold or italics for headings.
-
-Menu is divided up using headers to structure the content.
-
-#### includes proper alt text for images
-
+Includes proper alt text for images:
 - Facebook logo on each page.
 - Bay of Islands photo on index.html
 - Table of food, wine cellar on menu.html
 
-#### colour is used with care
-
+Colour is used with care:
 - Chose high contrast colours
 - Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.
 
-### form designed for accessbility (lables, tabbing, grouping)
-
+Form designed for accessbility (lables, tabbing, grouping):
 - Provided by default by Google forms
 
-#### tables used for tabular data, not layout
-
+Tables used for tabular data, not layout:
 - Have used div and css instead of tables to layout content
 
-#### content can be acessed with keyboard alone in a logical way
-
+Content can be acessed with keyboard alone in a logical way:
 - Checked that can navigate use TAB and arrow keys
 
-#### ARIA roles and landmarks used to identify naviation menu, header and main content
-
+ARIA roles and landmarks used to identify naviation menu, header and main content
 - Not covered explicitly in the modules
 - https://www.washington.edu/accessibility/web/landmarks/ 
 - https://www.w3.org/TR/wai-aria/
 - added roles "banner", "navigation" and "main" to each page
 
-### Contains an appropriate privacy statement
+### c. Contains an appropriate privacy statement
 
+Correctness of privacy statement (what, how, applicable laws, purpose, sharing, and contact details)
 - Added using privomatic
 
-#### Additional page added following style of other web pages (layout and navigation)
-
+Additional page added following style of other web pages (layout and navigation)
 - Linked from the page where personal information is collected (reservations.html)
+
+## Part 2 Tools and Techniques
+
+### a.	Use GitHub for source control and hosting to enable performance testing and conformance testing by the tutor. You should create a GitHub repository for managing your web application source code and assets. It should be exposed for testing using GitPages.
+
+Appropriately structured repository
+- CSS directory, images directory
+
+All assets are placed in appropriate subdirectories with screenshots provided.
+
+### b.	Apply responsive design principles to make the web application mobile ready. We use Google’s mobile-friendly test to automate this testing (https://search.google.com/test/mobile-friendly). 
+
+Viewport is configured to allow browsers to adjust page’s dimension and scaling to suit the device.
+
+Pages can be resized by the user. There’s no reliance on fixed width viewports. 
+
+Horizontal scrolling is not necessary to see words or images on the page.
+
+Content is laid out vertically when it won’t fit horizontally within the viewport.
+
+Images scale with the page, or alternative images are used for smaller viewports.
+
+Fonts are legible for mobile visitors without any need to ‘pinch and zoom’. Fonts scale properly within the viewport.
+
+### c. Optimise page loading times with the aim that the homepage can be loaded within two seconds on a 2G network. All other pages should have their performance optimised as much as possible using appropriate techniques.  We use Chrome DevTools, a mix of manual inspection of code, and Google mobile-friendly test to assess your submission.   
+
+Homepage loads within two seconds over good 2G connection.
+
+HTML and CSS minified.
+
+### d.	Discuss how HTTP caching and Content Delivery Networks could further improve responsiveness. Include your discussion in your README file.
+
+Role of HTTP caching
+
+Role of Content Delivery Networks	
+
+
