@@ -6,6 +6,8 @@ Assignment 2.
 
 ### a. Uses valid HTML5 to implement web page headers, footers, content, and navigation between the web pages. HTML is validated using https://html5.validator.nu/ Include screenshots of each page.
 
+Note that I have left warnings in related to Aria roles and focused on removing errors.
+
 Home:
 - header: hours, reservations, menu and contact
 - image of restaurant (with appropriate credit if creative commons)
