@@ -1,6 +1,4 @@
-# README
-
-Assignment 2.
+# README - ASSIGNMENT 2
 
 ## Part 1 Standards, Protocols and security
 
