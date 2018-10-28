@@ -13,7 +13,7 @@ Home:
 - image of restaurant (with appropriate credit if creative commons)
 - footer: link to home page and facebook icon and link
 
-![a](screenshots/homepage.jpg)
+![homepage](screenshots/homepage.jpg)
 
 Hours:
 - header: hours, reservations, menu and contact
@@ -22,14 +22,14 @@ Hours:
 - second column - google calendar to show when closed for holidays
 - footer: link to home page and facebook icon and link
 
-!(screenshots/hours-page.jpg)
+![hours](screenshots/hours-page.jpg)
 
 Reservations:
 - header: hours, reservations, menu and contact
 - google booking form (number of guests, month, date, time and mobile phone)
 - footer: link to home page and facebook icon and link
 
-!(screenshots/reservations-page.jpg)
+![reservations](screenshots/reservations-page.jpg)
 
 Menu:
 - header: hours, reservations, menu and contact
@@ -38,7 +38,7 @@ Menu:
 - drinks with images
 - footer: link to home page and facebook icon and link
 
-!(screenshots/menu-page.jpg)
+![menu](screenshots/menu-page.jpg)
 
 Contact:
 - header: hours, reservations, menu and contact
@@ -47,7 +47,7 @@ Contact:
 - map showing location
 - footer: link to home page and facebook icon and link
 
-!(screenshots/contact-page.jpg)
+![contacts](screenshots/contact-page.jpg)
 
 Navigation:
 - header menu allows navigation between pages
