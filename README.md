@@ -125,11 +125,20 @@ Fonts are legible for mobile visitors without any need to ‘pinch and zoom’. 
 
 ### c. Optimise page loading times with the aim that the homepage can be loaded within two seconds on a 2G network. All other pages should have their performance optimised as much as possible using appropriate techniques.  We use Chrome DevTools, a mix of manual inspection of code, and Google mobile-friendly test to assess your submission.   
 
+HTML and CSS minified.
+- used pagespeed to minify images on homepage and menu 
+- minified html and css pages
+- kept copies of the unminified versions of the html and css pages
+
 Homepage loads within two seconds over good 2G connection.
 - need to reduce the size of the images
 - minification required
+- tested by disabling caching and setting throttle to Good 2G
+- was able to load page within 3 seconds
+- (note that the pages with embedded content cannot be optimised easily because
+of their reliance on the google services and their loadtimes)
 
-HTML and CSS minified.
+![Network](screenshots/network.jpg)
 
 ### d.	Discuss how HTTP caching and Content Delivery Networks could further improve responsiveness. Include your discussion in your README file.
 
