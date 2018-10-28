@@ -142,8 +142,11 @@ of their reliance on the google services and their loadtimes)
 
 ### d.	Discuss how HTTP caching and Content Delivery Networks could further improve responsiveness. Include your discussion in your README file.
 
-Role of HTTP caching
+HTTP caching occurs when browsers will cache local copies of static web resources such as HTML code or images. This means that the next time the user of the browser visits the same page, the local copies will be loaded without requiring the browser to wait for the resources to be loaded over the network. This improves responsiveness.
 
-Role of Content Delivery Networks	
+HTTP proxies in organisations do the same thing and improve responsiveness for other clients who share the same proxy.
+
+You can apply the same idea to clients who might be spread globally and not users of a shared proxy. Visitors to the site based in different parts of the world will perceive responsiveness differently depending whether they are located close to the server hosting the website. A CDN can be used to distribute copies of the static content to a site located close to the client wanting to visit the site. The idea is that the content will be cached on a CDN server located closer to the client wanting to visit the site. This will improve the overall responsiveness of the wesbite.
+
 
 
