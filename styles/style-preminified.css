@@ -1,0 +1,93 @@
+/* Universal box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Set default font and background */
+* {
+    font-family: helvetica;
+}
+
+/* Style the header */
+.header {
+    background-color: cyan;
+    font-size: 3vw;
+    text-align: center;
+    padding: 0.5vw;
+}
+
+/* Style the navigation bar menu */
+.menu {
+    overflow: hidden;
+    background-color: black;
+    font-size: 2vw;
+}
+
+/* Style the menu links */
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5vw 1vw;
+}
+
+/* Create two equal columns that float next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    font-size: 3vw;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other
+ instead of next to each other -- we cover media queries later
+  in the module */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.footer {
+    text-align: center;
+    padding: 0.5vw;
+    font-size: 2vw;
+}
+
+/* Google maps responsive, not described in course 
+   See https://www.labnol.org/internet/embed-responsive-google-maps/28333/
+*/
+.responsive-iframe {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Responsive image */
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* Facebook logo */
+.facebooklogo {
+    height: 2vw;
+    width: auto;
+}
