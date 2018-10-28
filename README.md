@@ -107,12 +107,13 @@ Images scale with the page, or alternative images are used for smaller viewports
 
 Fonts are legible for mobile visitors without any need to ‘pinch and zoom’. Fonts scale properly within the viewport.
 - initially when tested the font size was too small for the menu page
-- changed the font size references to optimise the text for reading using vw unit
-
+- increased the font size (the font size is specified using vw)
 
 ### c. Optimise page loading times with the aim that the homepage can be loaded within two seconds on a 2G network. All other pages should have their performance optimised as much as possible using appropriate techniques.  We use Chrome DevTools, a mix of manual inspection of code, and Google mobile-friendly test to assess your submission.   
 
 Homepage loads within two seconds over good 2G connection.
+- 
+
 
 HTML and CSS minified.
 
