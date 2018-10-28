@@ -71,6 +71,7 @@
     height: 0;
     overflow: hidden;
 }
+
 .responsive-iframe iframe {
     position: absolute;
     top: 0;
