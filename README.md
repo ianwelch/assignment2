@@ -13,7 +13,7 @@ Home:
 - image of restaurant (with appropriate credit if creative commons)
 - footer: link to home page and facebook icon and link
 
-!(screenshots/homepage.jpg)
+![a](screenshots/homepage.jpg)
 
 Hours:
 - header: hours, reservations, menu and contact
